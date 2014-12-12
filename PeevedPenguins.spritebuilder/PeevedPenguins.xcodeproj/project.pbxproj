@@ -40,6 +40,7 @@
 		D33926721A3A7B160022C9D9 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926711A3A7B160022C9D9 /* Seal.m */; };
 		D33926751A3A7FB70022C9D9 /* Bear.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926741A3A7FB70022C9D9 /* Bear.m */; };
 		D33926781A3A81350022C9D9 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926771A3A81350022C9D9 /* Gameplay.m */; };
+		D33926811A3A9B390022C9D9 /* WaitingPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926801A3A9B390022C9D9 /* WaitingPenguin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,8 @@
 		D33926741A3A7FB70022C9D9 /* Bear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bear.m; sourceTree = "<group>"; };
 		D33926761A3A81350022C9D9 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
 		D33926771A3A81350022C9D9 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameplay.m; sourceTree = "<group>"; };
+		D339267F1A3A9B390022C9D9 /* WaitingPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingPenguin.h; sourceTree = "<group>"; };
+		D33926801A3A9B390022C9D9 /* WaitingPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingPenguin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +173,8 @@
 				D33926741A3A7FB70022C9D9 /* Bear.m */,
 				D33926761A3A81350022C9D9 /* Gameplay.h */,
 				D33926771A3A81350022C9D9 /* Gameplay.m */,
+				D339267F1A3A9B390022C9D9 /* WaitingPenguin.h */,
+				D33926801A3A9B390022C9D9 /* WaitingPenguin.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -409,6 +414,7 @@
 				D33926721A3A7B160022C9D9 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
+				D33926811A3A9B390022C9D9 /* WaitingPenguin.m in Sources */,
 				D33926651A3A7AFF0022C9D9 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 				D33926751A3A7FB70022C9D9 /* Bear.m in Sources */,
