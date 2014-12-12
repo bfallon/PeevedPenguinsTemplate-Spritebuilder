@@ -1140,7 +1140,7 @@
 								<key>customClass</key>
 								<string></string>
 								<key>displayName</key>
-								<string>CCNode</string>
+								<string>_mouseJointNode</string>
 								<key>memberVarAssignmentName</key>
 								<string>_mouseJointNode</string>
 								<key>memberVarAssignmentType</key>
