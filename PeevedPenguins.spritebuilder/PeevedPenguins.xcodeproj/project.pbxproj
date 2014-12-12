@@ -39,6 +39,7 @@
 		D33926651A3A7AFF0022C9D9 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926641A3A7AFF0022C9D9 /* Penguin.m */; };
 		D33926721A3A7B160022C9D9 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926711A3A7B160022C9D9 /* Seal.m */; };
 		D33926751A3A7FB70022C9D9 /* Bear.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926741A3A7FB70022C9D9 /* Bear.m */; };
+		D33926781A3A81350022C9D9 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926771A3A81350022C9D9 /* Gameplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,8 @@
 		D33926711A3A7B160022C9D9 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seal.m; sourceTree = "<group>"; };
 		D33926731A3A7FB70022C9D9 /* Bear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bear.h; sourceTree = "<group>"; };
 		D33926741A3A7FB70022C9D9 /* Bear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bear.m; sourceTree = "<group>"; };
+		D33926761A3A81350022C9D9 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gameplay.h; sourceTree = "<group>"; };
+		D33926771A3A81350022C9D9 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gameplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 				D33926711A3A7B160022C9D9 /* Seal.m */,
 				D33926731A3A7FB70022C9D9 /* Bear.h */,
 				D33926741A3A7FB70022C9D9 /* Bear.m */,
+				D33926761A3A81350022C9D9 /* Gameplay.h */,
+				D33926771A3A81350022C9D9 /* Gameplay.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33926781A3A81350022C9D9 /* Gameplay.m in Sources */,
 				D33926721A3A7B160022C9D9 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
