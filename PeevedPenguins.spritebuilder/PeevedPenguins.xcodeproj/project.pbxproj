@@ -38,6 +38,7 @@
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
 		D33926651A3A7AFF0022C9D9 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926641A3A7AFF0022C9D9 /* Penguin.m */; };
 		D33926721A3A7B160022C9D9 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926711A3A7B160022C9D9 /* Seal.m */; };
+		D33926751A3A7FB70022C9D9 /* Bear.m in Sources */ = {isa = PBXBuildFile; fileRef = D33926741A3A7FB70022C9D9 /* Bear.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +118,8 @@
 		D33926641A3A7AFF0022C9D9 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Penguin.m; sourceTree = "<group>"; };
 		D33926701A3A7B160022C9D9 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seal.h; sourceTree = "<group>"; };
 		D33926711A3A7B160022C9D9 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seal.m; sourceTree = "<group>"; };
+		D33926731A3A7FB70022C9D9 /* Bear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bear.h; sourceTree = "<group>"; };
+		D33926741A3A7FB70022C9D9 /* Bear.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bear.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 				D33926641A3A7AFF0022C9D9 /* Penguin.m */,
 				D33926701A3A7B160022C9D9 /* Seal.h */,
 				D33926711A3A7B160022C9D9 /* Seal.m */,
+				D33926731A3A7FB70022C9D9 /* Bear.h */,
+				D33926741A3A7FB70022C9D9 /* Bear.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				D33926651A3A7AFF0022C9D9 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				D33926751A3A7FB70022C9D9 /* Bear.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
