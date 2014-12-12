@@ -12,6 +12,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
+    CCNode *_contentNode;
 }
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
@@ -22,7 +23,6 @@
 
 // called on every touch in this scene
 -(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
-    CCLOG(@"ASASS");
     [self launchPenguin];
 }
 
@@ -35,7 +35,6 @@
 
     // add the penguin to the physicsNode of this scene (because it has physics enabled)
     [_physicsNode addChild:penguin];
-    CCLOG(@"PP: %@", _physicsNode);
     // manually create & apply a force to launch the penguin
     CGPoint launchDirection = ccp(1, 0);
     CGPoint force = ccpMult(launchDirection, 8000);
@@ -43,7 +42,7 @@
 
     self.position = ccp(0, 0);
     CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    [self runAction:follow];
+    [_contentNode runAction:follow];
 
 
 }
