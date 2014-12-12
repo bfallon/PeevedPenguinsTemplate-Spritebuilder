@@ -84,6 +84,7 @@
 - (void)releaseCatapult {
     if (_mouseJoint != nil)
     {
+            CCLOG(@"FFF");
         // releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
         _mouseJoint = nil;
@@ -104,7 +105,7 @@
 }
 
 - (void)launchPenguin {
-    CCLOG(@"FFF");
+
     // loads the Penguin.ccb we have set up in Spritebuilder
     CCNode* penguin = [CCBReader load:@"Penguin"];
 
