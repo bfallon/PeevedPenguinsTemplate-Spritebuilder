@@ -246,8 +246,8 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>148.42231750488281</real>
-						<false/>
+						<real>48.603572845458984</real>
+						<true/>
 					</array>
 				</dict>
 				<dict>
@@ -267,6 +267,8 @@
 					<real>4</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
