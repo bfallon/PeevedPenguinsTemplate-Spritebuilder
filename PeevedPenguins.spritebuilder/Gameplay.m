@@ -18,7 +18,8 @@
 }
 
 // called on every touch in this scene
-- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+-(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event{
+    CCLOG(@"ASASS");
     [self launchPenguin];
 }
 
