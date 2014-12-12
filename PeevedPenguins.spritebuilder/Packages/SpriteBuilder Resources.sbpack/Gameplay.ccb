@@ -164,8 +164,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>211.09765625</real>
-						<real>234.47262573242188</real>
+						<real>229.16412353515625</real>
+						<real>233.70700073242188</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +202,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>-3.90234375</real>
-						<real>-62.527374267578125</real>
+						<real>10.16412353515625</real>
+						<real>-51.292999267578125</real>
 					</array>
 				</dict>
 				<dict>
@@ -213,8 +213,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>18.09765625</real>
-						<real>200.98431396484375</real>
+						<real>38.83599853515625</real>
+						<real>199.06634521484375</real>
 					</array>
 				</dict>
 				<dict>
@@ -267,6 +267,8 @@
 					<real>500</real>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -1033,8 +1035,16 @@
 											<real>0.0</real>
 										</array>
 										<array>
+											<real>-1.32025146484375</real>
+											<real>13.82806396484375</real>
+										</array>
+										<array>
 											<real>0.0</real>
 											<real>32</real>
+										</array>
+										<array>
+											<real>15.80084228515625</real>
+											<real>36.84368896484375</real>
 										</array>
 										<array>
 											<real>32</real>
@@ -1057,8 +1067,16 @@
 												<real>32</real>
 											</array>
 											<array>
+												<real>15.80084228515625</real>
+												<real>36.84368896484375</real>
+											</array>
+											<array>
 												<real>0.0</real>
 												<real>32</real>
+											</array>
+											<array>
+												<real>-1.32025146484375</real>
+												<real>13.82806396484375</real>
 											</array>
 											<array>
 												<real>0.0</real>
@@ -1084,8 +1102,8 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>215</real>
-											<real>297</real>
+											<real>219</real>
+											<real>285</real>
 											<integer>0</integer>
 											<integer>0</integer>
 											<integer>0</integer>
@@ -1272,8 +1290,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
