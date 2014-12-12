@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>210.00006103515625</real>
-						<real>100.99996948242188</real>
+						<real>203.890625</real>
+						<real>102.05856323242188</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -93,8 +93,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>84.50006103515625</real>
-						<real>61.999969482421875</real>
+						<real>78.390625</real>
+						<real>63.058563232421875</real>
 					</array>
 				</dict>
 				<dict>
@@ -139,6 +139,8 @@
 					</array>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -164,8 +166,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>220.30084228515625</real>
-						<real>258.37884521484375</real>
+						<real>229.19927978515625</real>
+						<real>235.91793823242188</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +204,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>-12.69915771484375</real>
-						<real>-26.62115478515625</real>
+						<real>-3.80072021484375</real>
+						<real>-49.082061767578125</real>
 					</array>
 				</dict>
 				<dict>
@@ -267,8 +269,6 @@
 					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -540,7 +540,7 @@
 										<string>Position</string>
 										<key>value</key>
 										<array>
-											<real>221</real>
+											<real>216</real>
 											<real>187</real>
 											<integer>0</integer>
 											<integer>0</integer>
