@@ -132,7 +132,7 @@
 
 #pragma mark - collision delegate
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair typeA:(CCNode *)nodeA typeB:(CCNode *)nodeB{
-    NSLog(@"SDASASA");
+    CCLOG(@"SDASASA");
 }
 //this is weird, the name of the parameter is generated dynamically by the name "seal" in the seal class (self.physicsBody.collisionType = @"seal")
 -(void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB
